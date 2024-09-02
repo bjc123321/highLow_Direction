@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>userline</class>
+ <widget class="QWidget" name="userline">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1045</width>
+    <height>70</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1045</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit:enabled{
+color: rgb(0, 0, 0);
+	
+	background-color: rgb(255, 255, 255);
+   border-style:outset;
+   border-width:1px;
+   border-color: rgb(255,255, 255);
+   font:bold 30px;
+   min-width:100px;
+   min-height:20px;
+   padding:4px;
+border-radius:10px;
+}
+QLineEdit:!enabled{
+color: rgb(122, 122, 122);
+   
+	background-color: rgb(220, 220, 220);
+   border-style:outset;
+   border-width:1px;
+   border-color: rgb(255,255, 255);
+   font:bold 25px;
+   min-width:100px;
+   min-height:20px;
+   padding:4px;
+border-radius:10px;
+}
+QGroupBox
+{
+background-color: rgb(255, 255, 255);
+   border-style:solid;
+   border-width:3px;
+   border-color: rgb(96, 192, 255);
+   border-radius:10px;
+   padding:10px;
+
+}
+QLabel
+{
+   border-style:solid;
+   border-width:3px;
+   border-color: rgb(255, 255, 255);
+   border-radius:10px;
+   padding:10px;
+}
+</string>
+   </property>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1045</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QLineEdit" name="lineE">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>10</y>
+       <width>461</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>-1</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>沈阳顺义科技有限公司</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>3</x>
+       <y>3</y>
+       <width>64</width>
+       <height>64</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>华光黑体_CNKI</family>
+       <pointsize>66</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#btn
+{
+border-top-left-radius:6px;
+border-bottom-left-radius:6px;
+color: rgb(255, 255, 255);
+	image: url(:/res/usermange/down.png);
+}
+#btn:hover
+{
+	image: url(:/res/usermange/dow.png);
+background-color: rgb(88, 88, 88);
+}
+#btn:pressed
+{
+	image: url(:/res/usermange/dow.png);
+background-color: rgb(88, 88, 88);
+    padding-left:6px;
+    padding-top:6px;
+
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>10</y>
+       <width>10</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(218, 218, 218);
+border-radius:0px;</string>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnOK">
+     <property name="geometry">
+      <rect>
+       <x>978</x>
+       <y>3</y>
+       <width>64</width>
+       <height>64</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>15</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#btnOK
+{
+border-top-right-radius:6px;
+border-bottom-right-radius:6px;
+background-color: rgb(249, 180, 10);
+color: rgb(255, 255, 255);
+}
+
+#btnOK:hover
+{
+background-color: rgb(255, 135, 49);
+color: #FFFFFF;  
+border-right:2px solid #ffc515; 
+border-bottom:3px solid #ffc515;
+border-left:3px solid #e7b51e;
+border-top:3px solid #e7b51e; 
+border-top-right-radius:6px;
+border-bottom-right-radius:6px;
+}
+#btnOK:pressed
+{
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+     </property>
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineE_2">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>545</x>
+       <y>10</y>
+       <width>491</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>-1</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>admin</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>533</x>
+       <y>10</y>
+       <width>10</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(218, 218, 218);
+border-radius:0px;</string>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <zorder>lineE</zorder>
+    <zorder>label_5</zorder>
+    <zorder>btn</zorder>
+    <zorder>lineE_2</zorder>
+    <zorder>label_6</zorder>
+    <zorder>btnOK</zorder>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

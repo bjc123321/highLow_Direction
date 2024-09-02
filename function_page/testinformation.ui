@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>testinformation</class>
+ <widget class="QWidget" name="testinformation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QWidget" name="widget" native="true">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#widget
+{
+border-style:solid;
+border-width:3px;
+border-radius:0px;
+	border-color: rgb(255, 255, 255);
+
+
+border-color: qradialgradient(spread:repeat, cx:0.494, cy:0.5, radius:0.719458, fx:0.49435, fy:0.278409, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QGroupBox
+{
+border:none;	
+	color: rgb(250, 173, 49);
+border:none;
+}
+QLabel
+{
+color: rgb(255, 255, 255);
+}
+QLineEdit
+{
+
+border-radius:15px;
+border-width:2px;
+border-style:solid;
+border-color: rgb(220, 220, 220);
+background-color: rgb(0, 85, 127);
+
+}
+
+
+
+</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QWidget" name="widget_2" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#widget_2
+{
+background-color: qradialgradient(spread:repeat, cx:0.494, cy:0.5, radius:0.719458, fx:0.49435, fy:0.278409, stop:0 rgba(0, 85, 127, 255), stop:1 rgba(0, 85, 127, 255));
+}</string>
+        </property>
+        <widget class="QPushButton" name="btnhide">
+         <property name="geometry">
+          <rect>
+           <x>850</x>
+           <y>0</y>
+           <width>50</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>黑体</family>
+           <pointsize>30</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+border:none;
+
+	
+	color: rgb(172, 172, 172);
+}
+QPushButton:hover
+{
+border:none;
+background-color: rgb(255, 0, 0);
+	color: rgb(255, 255, 255);
+}</string>
+         </property>
+         <property name="text">
+          <string>×</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="titlelabel">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>1141</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>等线</family>
+           <pointsize>18</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(98, 97, 91);
+background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string> 部件测试信息录入</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_28">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>70</y>
+           <width>200</width>
+           <height>50</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>9999999</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>华光标题宋_CNKI</family>
+           <pointsize>22</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string>部件编号：</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lin_1">
+         <property name="geometry">
+          <rect>
+           <x>220</x>
+           <y>70</y>
+           <width>641</width>
+           <height>53</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>等线</family>
+           <pointsize>22</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::StrongFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius:0px;
+color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_29">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>150</y>
+           <width>200</width>
+           <height>50</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>9999999</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>华光标题宋_CNKI</family>
+           <pointsize>22</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string>部件信息：</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QTextEdit" name="textEdit_1">
+         <property name="geometry">
+          <rect>
+           <x>220</x>
+           <y>150</y>
+           <width>641</width>
+           <height>191</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>等线</family>
+           <pointsize>22</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_30">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>380</y>
+           <width>200</width>
+           <height>50</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>9999999</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>华光标题宋_CNKI</family>
+           <pointsize>22</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string>测试人员信息：</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QTextEdit" name="textEdit_2">
+         <property name="geometry">
+          <rect>
+           <x>220</x>
+           <y>380</y>
+           <width>641</width>
+           <height>101</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>等线</family>
+           <pointsize>22</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="btn_1">
+         <property name="geometry">
+          <rect>
+           <x>40</x>
+           <y>530</y>
+           <width>300</width>
+           <height>50</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>300</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>300</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>华光大标宋_CNKI</family>
+           <pointsize>20</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+color: rgb(0, 85, 127);
+background:#DDDDDD; 
+border-right:3px solid #646464; 
+border-bottom:3px solid #646464;
+border-left:3px solid #FFFFFF;
+border-top:3px solid #FFFFFF; 
+border-radius:3px;
+}                
+
+QPushButton:pressed{
+background:#DDDDDD; 
+border-right:2px solid #FFFFFF; 
+border-bottom:2px solid #FFFFFF;
+border-left:2px solid #646464;
+border-top:2px solid #646464; 
+border-radius:2px;
+}
+
+QPushButton:checked {
+background:#bbbbbb; 
+border-right:4px solid #FFFFFF; 
+border-bottom:4px solid #FFFFFF;
+border-left:4px solid #646464;
+border-top:4px solid #646464; 
+border-radius:4px;
+}</string>
+         </property>
+         <property name="text">
+          <string>保存信息</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="btn_2">
+         <property name="geometry">
+          <rect>
+           <x>560</x>
+           <y>530</y>
+           <width>300</width>
+           <height>50</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>300</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>300</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>华光大标宋_CNKI</family>
+           <pointsize>20</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+color: rgb(0, 85, 127);
+background:#DDDDDD; 
+border-right:3px solid #646464; 
+border-bottom:3px solid #646464;
+border-left:3px solid #FFFFFF;
+border-top:3px solid #FFFFFF; 
+border-radius:3px;
+}                
+
+QPushButton:pressed{
+background:#DDDDDD; 
+border-right:2px solid #FFFFFF; 
+border-bottom:2px solid #FFFFFF;
+border-left:2px solid #646464;
+border-top:2px solid #646464; 
+border-radius:2px;
+}
+
+QPushButton:checked {
+background:#bbbbbb; 
+border-right:4px solid #FFFFFF; 
+border-bottom:4px solid #FFFFFF;
+border-left:4px solid #646464;
+border-top:4px solid #646464; 
+border-radius:4px;
+}</string>
+         </property>
+         <property name="text">
+          <string>取消</string>
+         </property>
+        </widget>
+        <zorder>titlelabel</zorder>
+        <zorder>btnhide</zorder>
+        <zorder>label_28</zorder>
+        <zorder>lin_1</zorder>
+        <zorder>label_29</zorder>
+        <zorder>textEdit_1</zorder>
+        <zorder>label_30</zorder>
+        <zorder>textEdit_2</zorder>
+        <zorder>btn_1</zorder>
+        <zorder>btn_2</zorder>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btnhide</sender>
+   <signal>clicked()</signal>
+   <receiver>testinformation</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>879</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1099</x>
+     <y>158</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_2</sender>
+   <signal>clicked()</signal>
+   <receiver>testinformation</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>709</x>
+     <y>554</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>449</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

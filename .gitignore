@@ -1,32 +1,38 @@
-# Prerequisites
-*.d
+# 忽略编译生成的文件
+*.exe
 
-# Compiled Object files
-*.slo
-*.lo
+# 忽略 Qt Creator 配置文件
+*.pro.user
+*.qbs.user
+*.creator.*
+*.autosave
+
+# 忽略构建目录
+build
+
+# 忽略编译生成的对象文件和中间文件
 *.o
 *.obj
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
 
-# Precompiled Headers
-*.gch
-*.pch
+# 忽略 qmake 生成的文件
+Makefile*
+.qmake.stash
+object_script.*
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# 忽略 debug 和 release 目录
+debug/
+release/
 
-# Fortran module files
-*.mod
-*.smod
+# 忽略临时文件
+*.swp
+*.tmp
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# 忽略 Qt Creator 的 C++ 内存泄漏检测文件
+.valgrind.log
 
-# Executables
-*.exe
-*.out
-*.app
+# 忽略日志文件
+*.log

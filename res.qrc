@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/main/background(1).png</file>
+        <file>res/main/close.png</file>
+        <file>res/main/max.png</file>
+        <file>res/main/min.png</file>
+        <file>res/main/normal.png</file>
+        <file>res/main/icon.png</file>
+        <file>res/pushbutton/Hide.png</file>
+        <file>res/pushbutton/JCMK1.png</file>
+        <file>res/pushbutton/JCMK2.png</file>
+        <file>res/pushbutton/Settings.png</file>
+        <file>res/pushbutton/SJKMK1.png</file>
+        <file>res/pushbutton/SJKMK2.png</file>
+        <file>res/pushbutton/XTBZ1.png</file>
+        <file>res/pushbutton/XTBZ2.png</file>
+        <file>res/pushbutton/ZJMK1.png</file>
+        <file>res/pushbutton/ZJMK2.png</file>
+        <file>res/account/checked.png</file>
+        <file>res/account/checkedbluue.png</file>
+        <file>res/account/nopassword.png</file>
+        <file>res/account/nosee.png</file>
+        <file>res/account/nosee1.png</file>
+        <file>res/account/password.png</file>
+        <file>res/account/see.png</file>
+        <file>res/account/see1.png</file>
+        <file>res/account/unchecked.png</file>
+        <file>res/account/uncheckedwhite.png</file>
+    </qresource>
+</RCC>
