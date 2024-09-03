@@ -15879,6 +15879,9 @@ color:white;
                   <property name="styleSheet">
                    <string notr="true"/>
                   </property>
+                  <property name="currentIndex">
+                   <number>0</number>
+                  </property>
                   <widget class="QWidget" name="gridStackedWidgetPage1_6">
                    <property name="styleSheet">
                     <string notr="true">#gridStackedWidgetPage1_6
@@ -31082,8 +31085,8 @@ background-color: rgb(255, 0, 0);
  <connections/>
  <buttongroups>
   <buttongroup name="buttonGroup"/>
+  <buttongroup name="buttonGroup_2"/>
   <buttongroup name="buttonGroup_4"/>
   <buttongroup name="buttonGroup_3"/>
-  <buttongroup name="buttonGroup_2"/>
  </buttongroups>
 </ui>

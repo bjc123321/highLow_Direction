@@ -43,6 +43,7 @@ FunctionTest::FunctionTest(QWidget *parent) :
     m_AnPower=new SerialPowerThread();
     m_AnPower->start();
 
+    ui->itemwidget->hide();//定制需求将此模块隐藏,后续根据需求解开-----------2024.9.3
     connect(ui->itemwidget,&NavButtonGroup::buttonClicked,[=](int index){
         ui->stackedWidget->setCurrentIndex(index);
 
@@ -801,7 +802,7 @@ void FunctionTest::Electromagnetic_electrify_outage()
     if (btn && btn->isChecked())
     {
         m_AnPower->powerStart();
-        m_AnPower->flag=true;
+        m_AnPower->flag=true;//设置上电为true，
     }
     else
     {
